@@ -22,10 +22,10 @@ body {
     padding: 30px;
     transition: transform 1s;
     transform-style: preserve-3d;
-    position: relative;
 }
 
 .card.is-flipped {
+    position: relative;
     transform: rotateY(180deg);
 }
 
